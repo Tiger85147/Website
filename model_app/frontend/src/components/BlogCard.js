@@ -37,19 +37,19 @@ export default function BlogCard({
           image={imgURL}
         />
         <CardContent className={classes.textbox}>
-        <Typography style={{ fontSize: '20px', marginBottom: '10px'}} variant="body2" color="black" component="p">
+        <Typography style={{ fontSize: '20px', marginBottom: '10px'}} variant="body2" color="inherit" component="p">
             {title}
           </Typography>
-          <Typography style={{ fontSize: '15px'}} variant="body2" color="black" component="p">
+          <Typography style={{ fontSize: '15px'}} variant="body2" color="inherit" component="p">
             {brief}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="black">
+        <Button size="small" color="inherit">
           Share
         </Button>
-        <Button size="small" color="black">
+        <Button size="small" color="inherit">
           Read More
         </Button>
       </CardActions>

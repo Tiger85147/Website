@@ -222,24 +222,24 @@ class Simulator extends Component {
             <br></br>
 
             <div className={classes.bubble} align = 'center'>
-            <Typography className = {classes.bold} variant = "bold">About: </Typography><br/>
+            <Typography className = {classes.bold} >About: </Typography><br/>
             Anytown, USA is meant as an illustrative tool to depict the spread of COVID-19 in a representative town that could hypothetically be located anywhere in the United States. The simulation runs for a time period of 2 months, assuming a town population of 6000 people. Movement between facilities is modeled off of actual data from Oklahoma City, Oklahoma. More information regarding how movement is simulated can be found on our development blog. Infection within facilities is predicted using the Wells-Riley formula, and more information can also be found on our development blog. Results of the simulation should not be used to inform public health decisions, and is meant only as a tool to show how COVID-19 might spread.
             <br/>
             <br/>
-            <Typography className = {classes.bold} variant = "bold">How to use the simulator: </Typography><br/>
+            <Typography className = {classes.bold} >How to use the simulator: </Typography><br/>
 
             1. Adjust the sliders on the left pane to modify non-pharmaceutical interventions (NPI's) <br/>
             2. Click confirm (once) to lock-in interventions <br/>
             3. Press play (this step may take a few minutes as results are sent to the simulation server) <br/>
             4. Move around the map and click on different buildings to look at infection statistics within different facilities<br/>
             <br/>
-            <Typography className = {classes.bold} variant = "bold">Basic Controls:</Typography> <br/>
+            <Typography className = {classes.bold} >Basic Controls:</Typography> <br/>
             Move around the map using WASD controls<br/>
             Mouse wheel to zoom in/out<br/>
             Click on buildings to see information on the number of people who visited/ got infected on both a daily and overall timescale<br/>
 
             <br/>
-            <Typography className = {classes.bold} variant = "bold">Troubleshooting:</Typography> <br/>
+            <Typography className = {classes.bold} >Troubleshooting:</Typography> <br/>
 
             Please make sure webgl is enabled in your browser by visiting <a href="https://get.webgl.org/">https://get.webgl.org/</a><br/>
             After hitting play, the simulation may take a while to start running. This is normal and happens because there is a lot of data that needs to be processed and sent back to your browser.<br/>
