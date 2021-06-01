@@ -11,6 +11,7 @@ import HomeCarousel from '../components/Carousel';
 import TeamMemberJoin from '../images/teammemberjoin.jpg'
 
 const styles = {
+    fontSize: "20px",
     button: {
         borderColor: '#66FCF1',
         backgroundColor: '#66FCF1',
@@ -20,136 +21,132 @@ const styles = {
             backgroundColor: '#222629',
             color: '#66FCF1',
             borderColor: '#66FCF1',
-        },
+        },  
     },
 
-    fontSize: "20px",
-  },
-
-  imageBox: {
-    background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-    backgroundSize: "cover",
-
-    color: "white",
-    height: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    opacity: "0.9",
-    boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
-  },
-
-  teamPage: {
-    background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
-    backgroundSize: "cover",
-    color: "white",
-    height: "130vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    opacity: "0.7",
-    boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
-  },
-
-  blogSection: {
-    height: "80vh",
-    padding: "20px 200px 60px 200px",
-    overflow: "hidden",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
-  },
-
-  recent: {
-    color: "black",
-    //fontStyle: 'strong',
-    fontSize: "40px",
-    marginTop: "10px",
-    marginBottom: "10px",
-  },
-
-  link: {
-    "&:hover": {
-      color: "white",
+    imageBox: {
+        background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
+        backgroundSize: "cover",
+        color: "white",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        opacity: "0.9",
+        boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
     },
 
-    aboutSection: {
-        padding: '100px 110px 100px 110px',
-        backgroundColor: '#222D3C', /* Or #1C2531 ? */
-        overflow: 'hidden',
-
-        " p": {
-            fontSize: '18px',
-        }
-    },
-
-    whiteBackground: {
-        backgroundColor: 'white',
-        marginBottom: '50px',
-        borderRadius: '30px 30px 30px 30px'
+    teamPage: {
+        background: "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))",
+        backgroundSize: "cover",
+        color: "white",
+        height: "130vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        opacity: "0.7",
+        boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
     },
 
     blogSection: {
-
-        padding: '20px 200px 60px 200px',
-        backgroundColor: '#d5d7db',
-        overflow: 'hidden',
-
-        "> p": {
-            fontSize: '18px',
-            marginTop: '1rem',
-            marginBottom: '2rem',
-            color: 'lightgrey'
-        }
+        height: "80vh",
+        padding: "20px 200px 60px 200px",
+        overflow: "hidden",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        boxShadow: "inset 0 0 0 100vw rgba(0,0,0,0.5)",
     },
 
     recent: {
-        color: '#212628',
+        color: "black",
         //fontStyle: 'strong',
         fontSize: "40px",
-        marginTop: "30px"
+        marginTop: "10px",
+        marginBottom: "10px",
     },
 
-    blogImg: {
-        backgroundColor: 'white',
-        maxWidth: ' 100%',
-        maxHeight: '100%',
-        borderRadius: '30px 30px 30px 30px',
-        overflow: 'hidden',
-    },
+    link: {
+        "&:hover": {
+            color: "white",
+        },
 
-    blogContainer: {
-        paddingTop: '30px',
-        textAlign: 'center',
-        backgroundColor: '#212628',
-        borderRadius: '30px 30px 30px 30px',
-        minHeight: '600px',
-        overflow: 'hidden',
-        margin: '25px'
-    },
+        aboutSection: {
+            padding: '100px 110px 100px 110px',
+            backgroundColor: '#222D3C', /* Or #1C2531 ? */
+            overflow: 'hidden',
 
-    blogText: {
-        fontSize: '18px',
-        marginTop: '1rem',
-        marginBottom: '2rem',
-        color: '#d8e2ee',
-        textAlign: 'left',
-    },
+            " p": {
+                fontSize: '18px',
+            }
+        },
 
-    blogContent: {
-        padding: '20px'
-    },
+        whiteBackground: {
+            backgroundColor: 'white',
+            marginBottom: '50px',
+            borderRadius: '30px 30px 30px 30px',
+        },
 
-    imgContainer: {
-        padding: '0px 20px 20px 20px'
-    },
+        blogSection: {
 
+            padding: '20px 200px 60px 200px',
+            backgroundColor: '#d5d7db',
+            overflow: 'hidden',
 
-};
+            "> p": {
+                fontSize: '18px',
+                marginTop: '1rem',
+                marginBottom: '2rem',
+                color: 'lightgrey'
+            }
+        },
+
+        recent: {
+            color: '#212628',
+            //fontStyle: 'strong',
+            fontSize: "40px",
+            marginTop: "30px"
+        },
+
+        blogImg: {
+            backgroundColor: 'white',
+            maxWidth: ' 100%',
+            maxHeight: '100%',
+            borderRadius: '30px 30px 30px 30px',
+            overflow: 'hidden',
+        },
+
+        blogContainer: {
+            paddingTop: '30px',
+            textAlign: 'center',
+            backgroundColor: '#212628',
+            borderRadius: '30px 30px 30px 30px',
+            minHeight: '600px',
+            overflow: 'hidden',
+            margin: '25px'
+        },
+
+        blogText: {
+            fontSize: '18px',
+            marginTop: '1rem',
+            marginBottom: '2rem',
+            color: '#d8e2ee',
+            textAlign: 'left',
+        },
+
+        blogContent: {
+            padding: '20px'
+        },
+
+        imgContainer: {
+            padding: '0px 20px 20px 20px'
+        },
+    }
+}
 
 class Home extends Component {
 
     render() {
+        
         const { classes } = this.props;
 
         return (

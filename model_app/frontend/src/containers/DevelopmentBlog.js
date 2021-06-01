@@ -197,8 +197,6 @@ const useStyles = makeStyles((theme) => ({
 function DevelopmentBlog(props) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(true);
-  //const [expandedAnn, setExpandedAnn] = React.useState(true);
-  //const [expandedNews, setExpandedNews] = React.useState(true);
 
   let url = process.env.PUBLIC_URL + "developmentblog/date-2";
   //developmentblog/date-2
@@ -206,16 +204,6 @@ function DevelopmentBlog(props) {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-
-  //currently not being used but may be in the future
-  /*
-  const handleExpandClickAnn = () => {
-    setExpandedAnn(!expandedAnn);
-  };
-  const handleExpandClickNews = () => {
-    setExpandedNews(!expandedNews);
-  };
-  */
 
   const handleClick = (id, title) => {
     return (event) => {
